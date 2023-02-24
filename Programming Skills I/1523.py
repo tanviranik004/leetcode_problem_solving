@@ -10,6 +10,23 @@ if high % 2==1:
 
 print((high-low)//2)
 
+
+
+# class Solution(object):
+#     def countOdds(self, low, high):
+#         """
+#         :type low: int
+#         :type high: int
+#         :rtype: int
+#         """
+#         if low % 2==1:
+#            low-=1
+#         if high % 2==1:
+#            high +=1
+#         return(high-low)/2
+
+
+
 # if low % 2 == 0:
 
 #     print((high-low+1)//2)
@@ -17,3 +34,4 @@ print((high-low)//2)
 
     # return (high-low+1)//2
     #  return (high-low)//2 + 1
+
